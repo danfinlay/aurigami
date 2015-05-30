@@ -77,3 +77,20 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+
+# dependencies
+ember-client/node_modules
+ember-client/bower_components
+
+# misc
+ember-client/.sass-cache
+ember-client/connect.lock
+ember-client/coverage/*
+ember-client/libpeerconnection.log
+ember-client/npm-debug.log
+ember-client/testem.log
