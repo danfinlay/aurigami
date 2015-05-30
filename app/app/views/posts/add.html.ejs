@@ -15,6 +15,15 @@
       <%- partial('form', {post: params}) %>
 
       <div class="form-actions">
+
+        <h2 class="id">Message from <%= parent.authorName %></h2>
+
+        <section>
+          <button onclick="toggleRecording()">Record</button>
+          <script src="http://cdn.binaryjs.com/0/binary.js"></script>
+          <script src="/js/core/recorder.js"></script>
+        </section>
+
         <%- contentTag('input', 'Add', {type: 'submit', class: 'btn btn-primary'}) %>
       </div>
     </fieldset>

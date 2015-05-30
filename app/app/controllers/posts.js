@@ -16,7 +16,9 @@ var Posts = function () {
   };
 
   this.add = function (req, resp, params) {
+
     this.respondWith({params: params});
+
   };
 
   this.create = function (req, resp, params) {
